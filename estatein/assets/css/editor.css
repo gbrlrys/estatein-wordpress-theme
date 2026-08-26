@@ -1,0 +1,68 @@
+/*
+ * Block-editor styles.
+ *
+ * Mirrors the front-end type and colour so what an author sees in the editor
+ * matches what visitors get. Loaded via add_editor_style() in inc/setup.php.
+ */
+
+.editor-styles-wrapper {
+	--purple-60: #a685fa;
+	--purple-70: #703bf7;
+	--grey-08: #141414;
+	--grey-15: #262626;
+	--grey-75: #bfbfbf;
+
+	background-color: #000000;
+	color: #ffffff;
+	font-family: "Urbanist", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+	font-size: 17px;
+	line-height: 1.75;
+}
+
+.editor-styles-wrapper .wp-block {
+	max-width: 72ch;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4 {
+	color: #ffffff;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: -0.01em;
+}
+
+.editor-styles-wrapper h1 { font-size: 2.75rem; }
+.editor-styles-wrapper h2 { font-size: 2rem; }
+.editor-styles-wrapper h3 { font-size: 1.5rem; }
+
+.editor-styles-wrapper p { color: var(--grey-75); }
+
+.editor-styles-wrapper a {
+	color: var(--purple-60);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.editor-styles-wrapper li::marker { color: var(--purple-60); }
+
+.editor-styles-wrapper blockquote {
+	padding: 20px 24px;
+	border-left: 3px solid var(--purple-70);
+	background: var(--grey-08);
+	border-radius: 0 10px 10px 0;
+}
+
+.editor-styles-wrapper code,
+.editor-styles-wrapper pre {
+	background: var(--grey-08);
+	border: 1px solid var(--grey-15);
+	border-radius: 6px;
+}
+
+.editor-styles-wrapper table th,
+.editor-styles-wrapper table td {
+	border: 1px solid var(--grey-15);
+	padding: 12px 14px;
+}

@@ -1,0 +1,33 @@
+/*
+ * Admin styles.
+ *
+ * Small quality-of-life touches for the editor screens this theme adds.
+ * Loaded via admin_enqueue_scripts in inc/enqueue.php.
+ */
+
+/* Native meta-box fallback (used when ACF is not installed). */
+.estatein-meta p {
+	max-width: 520px;
+	margin: 0 0 16px;
+}
+
+.estatein-meta label {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.estatein-meta input[type="checkbox"] {
+	margin-top: 4px;
+}
+
+/* Make the Price column in the Properties list read as numeric. */
+.column-estatein_price {
+	width: 120px;
+	font-variant-numeric: tabular-nums;
+}
+
+/* Enquiries are read-only records — mute the editor chrome a little. */
+.post-type-estatein_enquiry #minor-publishing-actions,
+.post-type-estatein_enquiry #misc-publishing-actions .misc-pub-post-status {
+	display: none;
+}
