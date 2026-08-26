@@ -450,12 +450,12 @@ function estatein_default_faqs() {
  */
 function estatein_default_team() {
 	$items = array(
-		array( 'name' => 'Max Mitchell',   'role' => __( 'Founder & CEO', 'estatein' ),           'photo' => estatein_img( 'team/t1.jpg' ), 'linkedin' => '#' ),
-		array( 'name' => 'Sarah Johnson',  'role' => __( 'Head of Sales', 'estatein' ),           'photo' => estatein_img( 'team/t2.jpg' ), 'linkedin' => '#' ),
-		array( 'name' => 'David Brown',    'role' => __( 'Senior Property Advisor', 'estatein' ), 'photo' => estatein_img( 'team/t3.jpg' ), 'linkedin' => '#' ),
-		array( 'name' => 'Michael Turner', 'role' => __( 'Investment Analyst', 'estatein' ),      'photo' => estatein_img( 'team/t4.jpg' ), 'linkedin' => '#' ),
-		array( 'name' => 'Emily Carter',   'role' => __( 'Client Relations Lead', 'estatein' ),   'photo' => estatein_img( 'team/t5.jpg' ), 'linkedin' => '#' ),
-		array( 'name' => 'Olivia Bennett', 'role' => __( 'Legal Counsel', 'estatein' ),           'photo' => estatein_img( 'team/t6.jpg' ), 'linkedin' => '#' ),
+		array( 'name' => 'Max Mitchell',   'role' => __( 'Founder & CEO', 'estatein' ),           'photo' => estatein_img( 'team/t1.jpg' ), 'linkedin' => '' ),
+		array( 'name' => 'Sarah Johnson',  'role' => __( 'Head of Sales', 'estatein' ),           'photo' => estatein_img( 'team/t2.jpg' ), 'linkedin' => '' ),
+		array( 'name' => 'David Brown',    'role' => __( 'Senior Property Advisor', 'estatein' ), 'photo' => estatein_img( 'team/t3.jpg' ), 'linkedin' => '' ),
+		array( 'name' => 'Michael Turner', 'role' => __( 'Investment Analyst', 'estatein' ),      'photo' => estatein_img( 'team/t4.jpg' ), 'linkedin' => '' ),
+		array( 'name' => 'Emily Carter',   'role' => __( 'Client Relations Lead', 'estatein' ),   'photo' => estatein_img( 'team/t5.jpg' ), 'linkedin' => '' ),
+		array( 'name' => 'Olivia Bennett', 'role' => __( 'Legal Counsel', 'estatein' ),           'photo' => estatein_img( 'team/t6.jpg' ), 'linkedin' => '' ),
 	);
 
 	return apply_filters( 'estatein_default_team', $items );

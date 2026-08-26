@@ -8,10 +8,10 @@
 defined( 'ABSPATH' ) || exit;
 
 $estatein_socials = array(
-	'facebook'  => estatein_option( 'social_facebook', '#' ),
-	'x'         => estatein_option( 'social_x', '#' ),
-	'linkedin'  => estatein_option( 'social_linkedin', '#' ),
-	'instagram' => estatein_option( 'social_instagram', '#' ),
+	'facebook'  => estatein_option( 'social_facebook', '' ),
+	'x'         => estatein_option( 'social_x', '' ),
+	'linkedin'  => estatein_option( 'social_linkedin', '' ),
+	'instagram' => estatein_option( 'social_instagram', '' ),
 );
 ?>
 </main><!-- #main -->

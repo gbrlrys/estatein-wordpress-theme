@@ -33,6 +33,7 @@ file, not three copies.
 | `enqueue.php` | Assets, `filemtime` cache-busting, deferred script, font preload |
 | `post-types.php` | Properties, Services, Testimonials, Team, FAQs + taxonomies |
 | `fields.php` | ACF field groups **and** a native meta-box fallback |
+| `customizer.php` | Site-wide options (contact, social, hero) without ACF |
 | `template-tags.php` | Shared render helpers (price, breadcrumbs, pagination, specs) |
 | `icons.php` | Inline SVG icon set |
 | `nav-walker.php` | Accessible menu walker + fallback navigation |
@@ -56,6 +57,15 @@ published posts when they exist and a curated seed set when they don't. This is
 why the demo looks complete before any content has been entered. The seed data is
 filterable and disappears the moment real content is published — it never
 overrides anything.
+
+**One properties index, two routes.** Registering the `property` post type with
+`rewrite => 'properties'` and `has_archive => true` collides with a page of the
+same slug, and WordPress resolves that in favour of the archive — so the page
+template silently never runs. Rather than fight the router or rename the URL,
+the filter bar and results grid live in one shared part
+(`template-parts/sections/property-index.php`) that both `archive-property.php`
+and the page template render. The visitor gets the same page either way, and it
+works whether or not a Properties page has been created.
 
 **The markup works without JavaScript.** The mobile menu, accordion, carousels
 and forms all have a functioning no-JS baseline; `main.js` upgrades them. The
