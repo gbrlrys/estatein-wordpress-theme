@@ -3,7 +3,7 @@
 A custom WordPress theme built from the [Estatein Figma template](https://www.figma.com/community/file/1314076616839640516).
 No page builder, no starter theme, no framework — hand-written PHP, CSS and JavaScript.
 
-**Live demo:** https://claude.ai/code/artifact/0328871e-a194-4c2e-b49c-88099f194099
+**Live demo:** https://estatein-gr.infinityfreeapp.com/
 **Theme source:** `estatein/`
 
 ---
