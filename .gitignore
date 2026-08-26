@@ -8,3 +8,6 @@ Thumbs.db
 # Tooling output
 .playwright-mcp/
 node_modules/
+
+# Build artifact (published as a GitHub release asset)
+estatein-theme.zip
