@@ -4,7 +4,7 @@ A hand-built WordPress theme converted from the
 [Estatein Figma template](https://www.figma.com/community/file/1314076616839640516).
 Dark UI, Urbanist type, no page builder and no front-end dependencies.
 
-**Live demo** → [https://claude.ai/code/artifact/0328871e-a194-4c2e-b49c-88099f194099](https://estatein-gr.infinityfreeapp.com)
+**Live demo** → https://estatein-gr.infinityfreeapp.com
 **Development notes** → [DOCUMENTATION.md](DOCUMENTATION.md)
 
 ---
